@@ -1,0 +1,51 @@
+.box {
+    width:800px;
+    height:600px;
+    background:linear-gradient(#a8c0ff,#3f2b96);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 50px auto ;
+
+}
+table{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    
+    
+}
+button{
+    color: white;
+    background-color: #e75170;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+
+}
+tr td{
+    border: 2px white;
+    background:#3f2b96;
+    text-align: center;
+    color: white;
+    width: 50px;
+    height: 100px;
+    padding: 10px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+#red{
+    background-color: red;
+}
+.font{
+    font-size: 50px;
+}
+button:hover{
+    background-color: aqua;
+}
